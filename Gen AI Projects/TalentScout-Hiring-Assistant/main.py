@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 import base64
 from langchain.chat_models import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
+from langchain.schema import  HumanMessage
 from langchain.prompts import ChatPromptTemplate
 load_dotenv()
 # Load API Key from environment variable
